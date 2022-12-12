@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .socialicons {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.8s;
+    margin: 4px;
+    &:hover {
+      color: black;
+      padding-left: 5px;
+      padding-right: 5px;
+      transition: all 0.8s;
+      margin: 4px;
+    }
+  
+  }
+
+  .icontech {
+   width: 60px;
+}
+.cardskill{
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    font-weight: bold;
+    padding: 2px;
+    margin: 4px;
+}
+.skillcomponent{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   
+  
+}
+
+.wrapper {
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  color: #eee;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+.mailme{
+  position: fixed;
+  width: 23px;;
+  height: 120px;
+  border: 1px solid black;
+  right:0;
+  bottom:40%;
+  z-index:3;
+  writing-mode: vertical-lr;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  background-color: #eee;
+  font-weight:600;
+  &:hover{
+    background-color: rgba(65, 64, 64, 0.521);
+    color: white;
+    border: 2px solid white;
+    transition: all 0.8s;
+  }
+}
+.lead{
+  text-align: justify;
+}
+.title1{
+  font-size:4rem;
+  color: white;
+}
+.sombreado{
+  box-shadow: 2px 2px 2px grey;
+}
+
+.title2{
+  font-size:2rem;
+  color: rgb(1, 2, 48);
+  font-weight: bold;
+}
+.title3{
+  color: gray;
+  font-size: 0.7rem;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justify{
+  text-align: justify;
+}
+.casiblanco{
+  background-color: #F0F9FE;
+}
+.titlecard{
+  font-size: 2rem;
+}
+#home{
+  height: 100vh;
+}
